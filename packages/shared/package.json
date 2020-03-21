@@ -1,0 +1,20 @@
+{
+  "name": "shared",
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -p tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "axios": "^0.19.2",
+    "typescript": "^3.5.3"
+  },
+  "license": "ISC",
+  "description": "shared-components",
+  "author": "nikhil.venkatraman"
+}
