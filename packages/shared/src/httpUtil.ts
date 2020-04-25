@@ -3,14 +3,14 @@ type API = {
   responseLookupKey: string
  }
 
-const fetchData = (data: API) => {
-  return fetch(data.url)
+const fetchData = ({url, responseLookupKey}: API) => {
+  return fetch(url)
   .then(response => response.json())
   .then(response => {
     if (response[0]) {
       response = response[0];
     }
-    const keys = data.responseLookupKey.split('.');
+    const keys = responseLookupKey.split('.');
     keys.forEach((val, index) => {
       response = response[keys[index]];
     });
@@ -44,14 +44,14 @@ const wrapPromise = (promise: Promise<any>) => {
   };
 }
 
-export const createResource = ({url, responseLookupKey}: API) => {
+export const createResource = (resourceObject: API) => {
   return {
-    pageData: wrapPromise(fetchData({url, responseLookupKey}))
+    pageData: wrapPromise(fetchData(resourceObject))
   }
 }
 
-export const getResource = ({url, responseLookupKey}: API) => {
+export const getResource = (resourceObject: API) => {
   return {
-    pageData: fetchData({url, responseLookupKey})
+    pageData: fetchData(resourceObject)
   }
 }
