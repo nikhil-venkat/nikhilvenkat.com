@@ -15,7 +15,7 @@ const Doggo = function () {
   }
   useEffect(() => {
     getRandomDog();
-  },['dogImg']);
+  },[]);
 
   return (
     <div className="flex mt-40 mb-10">
