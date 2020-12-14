@@ -12,6 +12,14 @@ a {
 @keyframes spinner {
   to {transform: rotate(360deg);}
 }
+
+.linkedin {
+  fill: #2867B2;
+}
+
+.github {
+  fill: #2867B2;
+}
  
 .spinner:before {
   content: '';

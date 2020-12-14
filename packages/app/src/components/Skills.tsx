@@ -3,7 +3,7 @@ import { APIS, fetchResourcePromise } from 'shared'
 
 const resumeResource = fetchResourcePromise({
   url: APIS.RESUME_API,
-  responseLookupKey: 'pageData.content' 
+  responseLookupKey: 'resume' 
 });
 
 const resume = function () {
