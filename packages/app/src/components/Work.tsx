@@ -3,7 +3,7 @@ import { APIS, fetchResourcePromise } from 'shared'
 
 const workResource = fetchResourcePromise({
   url: APIS.WORK_API,
-  responseLookupKey: 'pageData.content' 
+  responseLookupKey: 'work' 
 });
 const about = function () {
   return (
