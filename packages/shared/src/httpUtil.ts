@@ -4,17 +4,15 @@ type API = {
  }
 
 const fetchData = ({url, responseLookupKey}: API) => {
-  return fetch(url)
+  return fetch(url, {
+    method: "GET",
+    headers: {
+      "X-Master-Key": "$2b$10$t9Wy5Cn8oMsQL9Sxybd21.TXFO2tUM0YFMM/myhGw0hpUKe9sdM3G"
+    },
+  })
   .then(response => response.json())
   .then(response => {
-    if (response[0]) {
-      response = response[0];
-    }
-    const keys = responseLookupKey.split('.');
-    keys.forEach((val, index) => {
-      response = response[keys[index]];
-    });
-    return response;
+    return response.record[responseLookupKey];
   })
 };
 

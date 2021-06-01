@@ -14,14 +14,14 @@ const Doggo = function () {
     });
   }
   useEffect(() => {
-    getRandomDog();
+    //getRandomDog();
   },[]);
 
   return (
     <div className="flex mt-10 mb-10">
       <div className="w-screen">
         <div className="px-20">
-          <p className="py-10"> Thanks &#x1F64C; &nbsp; for visiting.</p>
+          <p className="py-10"> Thanks  &#x1F64C; &nbsp; for visiting.</p>
           {/* <img title="Click to see a random &#x1F436; photo"className="dog w-1/2 cursor-pointer" alt="good boy" src={dogImg} onClick={(e) => { e.preventDefault(); getRandomDog()}}></img>  */}
         </div>
       </div>
