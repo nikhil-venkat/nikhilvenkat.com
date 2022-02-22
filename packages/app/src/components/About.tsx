@@ -1,23 +1,30 @@
 import React from 'react';
-import { greetUser } from 'shared'
+import { useTranslation } from 'react-i18next';
+import { Trans } from 'react-i18next';
 
 const About = function () {
+  const { t, i18n } = useTranslation();
   return (
     <div className="flex">
       <div className="w-screen">
         <div className="px-20 py-10">
-          <p className="font-bold text-xl">{greetUser({greeting: 'Hello' , name: ''})} &#x1F44B;&nbsp;  I am Nikhil!</p>
-          <p className="text-xl mb-5">Welcome to my personal webspace.</p>
-          <p className="font-bold text-xl">About Me</p>
-          <p>
-            I am a software engineer and I grew up in Mumbai. I graduated with a Masters Degree in Computer Science from <a href="http://www.usc.edu/" target="_blank" rel="noopener noreferrer" >USC</a>.
-            I am fortunate to be working in the silicon valley tech industry where over the years I got an opportunity to work with some great people and helped to build amazing products. 
-          </p>
-          <p>
-            I like to build solutions across the stack but I am passionate about Front End Engineering. In my free time you can find me tinkering with a new javascript framework that has just come out and trying to learn them by watching endless youtube/egghead io videos.
-            My other interests include following a lot of Eurpean football (soccer) supporting <a href="https://twitter.com/ManUtd" target="_blank\" rel="noopener noreferrer" > #mufc </a>.
-            I try and play (on field & x-box) whenever I get a chance. I currently live in the San Francisco, Bay Area with my wife and our dog <a href="https://www.instagram.com/mowgli.the.merledood" target="_blank" rel="noopener noreferrer" > Mowgli </a>
-          </p>
+          <p className="font-bold text-xl"> &#x1F44B;&nbsp; {t('greeting')} </p>
+          <p className="text-xl mb-5">{t('welcome')}</p>
+          <p className="font-bold text-xl">{t('section_about')}</p>
+          <span>
+           <Trans i18nKey="intro-part1">
+            t <a href="https://www.usc.edu/"></a>.
+           </Trans>
+          </span>
+          <span>
+            {t('intro-part2')}
+          </span>
+          <span>
+          <Trans i18nKey="intro-part3">
+            t <a href="https://twitter.com/ManUtd"></a>
+            <a href="https://www.instagram.com/mowgli.the.merledood/"></a>
+           </Trans>
+          </span>
           <p className="flex pt-5 contact">
             <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/nikhil-venkatraman/" className="mr-10">
               <svg role="img" width="40" height="40" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn icon</title><path className="linkedin" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" /></svg>
