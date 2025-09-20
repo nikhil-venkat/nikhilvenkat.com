@@ -1,8 +1,8 @@
 {
   "name": "shared",
   "version": "0.1.0",
-  "main": "./dist/index.js",
-  "typings": "./dist/index.d.ts",
+  "main": "./dist/shared/src/index.js",
+  "typings": "./dist/shared/src/index.d.ts",
   "files": [
     "dist"
   ],
