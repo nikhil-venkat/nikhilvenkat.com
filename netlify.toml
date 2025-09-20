@@ -9,8 +9,8 @@
   publish = "packages/app/build"
 
 [build.environment]
-  # Node.js version
-  NODE_VERSION = "18"
+  # Node.js version - using 20 to satisfy minimatch@10.0.3 requirements
+  NODE_VERSION = "20"
   
   # Enable legacy OpenSSL provider for Node.js compatibility
   NODE_OPTIONS = "--openssl-legacy-provider"
