@@ -1,0 +1,22 @@
+[build]
+  # Base directory for the build (root of monorepo)
+  base = "."
+  
+  # Build command that handles monorepo dependencies
+  command = "yarn build"
+  
+  # Publish directory (where the built app will be)
+  publish = "packages/app/build"
+
+[build.environment]
+  # Node.js version
+  NODE_VERSION = "18"
+  
+  # Enable legacy OpenSSL provider for Node.js compatibility
+  NODE_OPTIONS = "--openssl-legacy-provider"
+
+# Redirect rules for SPA
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

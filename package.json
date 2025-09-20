@@ -7,7 +7,9 @@
     "packages/*"
   ],
   "scripts": {
-    "watch": "lerna run --parallel watch"
+    "watch": "lerna run --parallel watch",
+    "build": "lerna bootstrap && lerna run build --scope=shared && lerna run build --scope=app",
+    "build:app": "lerna bootstrap && lerna run build --scope=shared && lerna run build --scope=app"
   },
   "devDependencies": {
     "lerna": "^3.16.4"
