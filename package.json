@@ -8,8 +8,9 @@
   ],
   "scripts": {
     "watch": "lerna run --parallel watch",
-    "build": "lerna bootstrap && lerna run build --scope=shared && lerna run build --scope=app",
-    "build:app": "lerna bootstrap && lerna run build --scope=shared && lerna run build --scope=app"
+    "build": "yarn install && cd packages/shared && yarn build && cd ../app && yarn build",
+    "build:app": "yarn install && cd packages/shared && yarn build && cd ../app && yarn build",
+    "clean": "rm -rf node_modules packages/*/node_modules packages/*/dist"
   },
   "devDependencies": {
     "lerna": "^3.16.4"

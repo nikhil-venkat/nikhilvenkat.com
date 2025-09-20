@@ -2,8 +2,8 @@
   # Base directory for the build (root of monorepo)
   base = "."
   
-  # Build command that handles monorepo dependencies
-  command = "yarn build"
+  # Build command that handles monorepo dependencies with cleanup
+  command = "./build.sh"
   
   # Publish directory (where the built app will be)
   publish = "packages/app/build"
@@ -14,6 +14,9 @@
   
   # Enable legacy OpenSSL provider for Node.js compatibility
   NODE_OPTIONS = "--openssl-legacy-provider"
+  
+  # Prevent npm ci issues in Lerna
+  LERNA_DISABLE_NPM = "true"
 
 # Redirect rules for SPA
 [[redirects]]

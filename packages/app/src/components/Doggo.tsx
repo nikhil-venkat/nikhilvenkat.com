@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react';
-import { APIS, fetch } from 'shared';
 import { useTranslation } from 'react-i18next';
 
 const Doggo = function () {
@@ -7,13 +6,8 @@ const Doggo = function () {
   const { t, i18n } = useTranslation();
 
   const getRandomDog = () => {
-    const result = fetch({
-      url: APIS.DOGGO,
-      responseLookupKey: 'url'
-    });
-    result.pageData.then((dogImg) => {
-      setDogImg(dogImg);
-    });
+    // Dog fetching functionality removed - component is not being used
+    console.log('Dog fetching functionality removed');
   }
   useEffect(() => {
     //getRandomDog();
