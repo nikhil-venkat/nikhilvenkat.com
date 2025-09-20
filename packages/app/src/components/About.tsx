@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { Trans } from 'react-i18next';
 
 const About = function () {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   return (
     <div className="flex">
       <div className="w-screen">
@@ -13,7 +13,7 @@ const About = function () {
           <p className="font-bold text-xl">{t('section_about')}</p>
           <span>
            <Trans i18nKey="intro-part1">
-            t <a href="https://www.usc.edu/"></a>.
+            t <a href="https://www.usc.edu/">USC</a>.
            </Trans>
           </span>
           <span>
@@ -21,8 +21,8 @@ const About = function () {
           </span>
           <span>
           <Trans i18nKey="intro-part3">
-            t <a href="https://twitter.com/ManUtd"></a>
-            <a href="https://www.instagram.com/mowgli.the.merledood/"></a>
+            t <a href="https://twitter.com/ManUtd">#mufc</a>
+            <a href="https://www.instagram.com/mowgli.the.merledood/">Mowgli</a>
            </Trans>
           </span>
           <p className="flex pt-5 contact">
