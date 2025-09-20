@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 
 const Skills = function () {
   const { t } = useTranslation();
-  const profileData = getProfileData();
+  const profileData = getProfileData() as any;
   
   // Transform the skills data into a renderable format with fallbacks
   const skillsCategories = [

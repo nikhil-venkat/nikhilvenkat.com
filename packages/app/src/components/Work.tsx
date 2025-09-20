@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 
 const Work = function () {
   const { t } = useTranslation();
-  const profileData = getProfileData();
+  const profileData = getProfileData() as any;
   const experience = (profileData && profileData.experience) || [];
 
   const formatDate = (dateStr: string | null) => {
