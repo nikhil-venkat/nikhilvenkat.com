@@ -1,0 +1,184 @@
+{
+  "basics": {
+    "name": "Nikhil Venkatraman",
+    "label": "Engineering Manager \u2022 UI Platform & Design Systems",
+    "location": {
+      "region": "SF Bay Area",
+      "country": "USA"
+    },
+    "email": "nikhil.venkatraman@gmail.com",
+    "phone": "+1-323-893-9143",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "nikhil-venkatraman",
+        "url": "https://www.linkedin.com/in/nikhil-venkatraman"
+      },
+      {
+        "network": "GitHub",
+        "username": "nikhil-venkat",
+        "url": "https://github.com/nikhil-venkat"
+      }
+    ]
+  },
+  "summary": "Engineering manager and design systems leader with 10+ years building and scaling enterprise SaaS. Led UI platform modernization and global design system adoption to deliver unified, accessible user experiences; partnered with product/design to accelerate delivery, cut costs, and improve global adoption.",
+  "experience": [
+    {
+      "company": "Okta, Inc.",
+      "location": "San Francisco, CA",
+      "positions": [
+        {
+          "title": "Engineering Manager, UI Platform & Design Systems",
+          "start": "2024-02",
+          "end": null,
+          "highlights": [
+            "Lead a team of 16 engineers (including 1 EM) across 4 teams for Okta\u2019s UI platform and Odyssey design system.",
+            "Delivered GA launch of unified navigation across Okta\u2019s apps, streamlining workflows and reinforcing brand coherence.",
+            "Drove Odyssey design system adoption (React, design tokens, a11y primitives) across dozens of product teams.",
+            "Aligned platform strategy with product needs in partnership with Design, PM, and Accessibility to ensure scalable, inclusive UX.",
+            "Built a platform-first culture that reduced duplication, improved accessibility compliance, and strengthened global adoption."
+          ]
+        },
+        {
+          "title": "Principal Software Engineer / Tech Lead, Globalization-Core",
+          "start": "2016-11",
+          "end": "2024-02",
+          "highlights": [
+            "Led cross-functional engineering to internationalize end-user and admin platforms, enabling 26+ languages worldwide.",
+            "Defined i18n architectural strategy/frameworks used across products, reducing localization cycle time and improving release velocity.",
+            "Mentored engineers; hosted bi-weekly office hours to share best practices.",
+            "Partnered with PM and Design on roadmap planning and delivery."
+          ]
+        },
+        {
+          "title": "Staff Software Engineer, UI-Core",
+          "highlights": [
+            "Introduced localization tooling and infrastructure for the Identity Engine, improving developer efficiency and translation quality.",
+            "Directed initiative to localize the Okta Admin Portal for global markets."
+          ]
+        },
+        {
+          "title": "Senior Software Engineer, End User & Identity Experience",
+          "highlights": [
+            "Co-led redesign/implementation of the Okta sign-in experience using the Identity Engine, improving security and usability.",
+            "Built admin customization for email templates and end-user experiences.",
+            "Delivered core internationalization capabilities for the end-user application."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Jobvite, Inc.",
+      "location": "San Mateo, CA",
+      "positions": [
+        {
+          "title": "Software UI Engineer",
+          "start": "2012-01",
+          "end": "2016-11",
+          "highlights": [
+            "Re-architected and redesigned Jobvite Dashboard; improved performance by ~50%.",
+            "Built reusable AngularJS UI components to accelerate multi-team development.",
+            "Contributed as full\u2011stack engineer on multiple SaaS features.",
+            "Supported internationalization of Jobvite Hire to expand product reach."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Gala-Net",
+      "location": "Sunnyvale, CA",
+      "positions": [
+        {
+          "title": "Front-End Web Developer",
+          "start": "2010-10",
+          "end": "2012-01",
+          "highlights": [
+            "Developed cross-platform web applications and MMORPG portals for global users."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Eyemagine",
+      "location": "Orange County, CA",
+      "positions": [
+        {
+          "title": "Junior Software Developer",
+          "start": "2010-06",
+          "end": "2010-10",
+          "highlights": [
+            "Built e-commerce web applications using Magento and PHP."
+          ]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Southern California",
+      "area": "Computer Science",
+      "studyType": "M.S.",
+      "start": "2007",
+      "end": "2009"
+    },
+    {
+      "institution": "Mumbai University (VESIT)",
+      "area": "Information Technology",
+      "studyType": "B.S.",
+      "start": "2003",
+      "end": "2007"
+    }
+  ],
+  "skills": {
+    "frontend": [
+      "JavaScript (ES6+)",
+      "React",
+      "Backbone.js",
+      "AngularJS",
+      "TypeScript",
+      "HTML5",
+      "CSS3",
+      "SASS"
+    ],
+    "backend": [
+      "Java",
+      "Spring MVC",
+      "Node.js",
+      "REST APIs"
+    ],
+    "databases": [
+      "MySQL",
+      "MongoDB",
+      "Redis",
+      "MSSQL"
+    ],
+    "tools_devops": [
+      "Git",
+      "Docker",
+      "Maven",
+      "Tomcat",
+      "JIRA",
+      "Confluence",
+      "IntelliJ",
+      "VSCode"
+    ],
+    "other": [
+      "Design Systems",
+      "Internationalization (i18n)",
+      "Accessibility",
+      "Translation pipeline",
+      "UI Platforms",
+      "SaaS Architecture"
+    ]
+  },
+  "links": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/nikhil-venkatraman"
+    },
+    {
+      "label": "Odyssey Design System (GitHub)",
+      "url": "https://github.com/okta/odyssey"
+    }
+  ]
+}
