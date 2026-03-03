@@ -7,8 +7,8 @@ const Page = function () {
   return (
     <div>
       <About></About>
-      <Skills></Skills>
       <Work></Work>
+      <Skills></Skills>
     </div>
   );
 }

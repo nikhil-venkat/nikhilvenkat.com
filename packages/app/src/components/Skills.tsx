@@ -8,11 +8,10 @@ const Skills = function () {
   
   // Transform the skills data into a renderable format with fallbacks
   const skillsCategories = [
+    { title: 'AI Tools', skills: (profileData && profileData.skills && profileData.skills.ai_tools) || [] },
+    { title: 'Front End', skills: (profileData && profileData.skills && profileData.skills.frontend) || [] },
     { title: 'Backend', skills: (profileData && profileData.skills && profileData.skills.backend) || [] },
-    { title: 'Databases', skills: (profileData && profileData.skills && profileData.skills.databases) || [] },
-    { title: 'Frontend', skills: (profileData && profileData.skills && profileData.skills.frontend) || [] },
-    { title: 'Other', skills: (profileData && profileData.skills && profileData.skills.other) || [] },
-    { title: 'Tools & DevOps', skills: (profileData && profileData.skills && profileData.skills.tools_devops) || [] }
+    { title: 'Databases', skills: (profileData && profileData.skills && profileData.skills.databases) || [] }
   ];
 
   const education = (profileData && profileData.education) || [];

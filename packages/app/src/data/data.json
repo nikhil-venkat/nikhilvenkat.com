@@ -28,47 +28,54 @@
       "location": "San Francisco, CA",
       "positions": [
         {
-          "title": "Engineering Manager, UI Platform & Design Systems",
+          "title": "Engineering Manager – UI Platform & Design Systems",
           "start": "2024-02",
           "end": null,
           "highlights": [
-            "Lead a team of 16 engineers (including 1 EM) across 4 teams for Okta\u2019s UI platform and Odyssey design system.",
-            "Delivered GA launch of unified navigation across Okta\u2019s apps, streamlining workflows and reinforcing brand coherence.",
-            "Drove Odyssey design system adoption (React, design tokens, a11y primitives) across dozens of product teams.",
-            "Aligned platform strategy with product needs in partnership with Design, PM, and Accessibility to ensure scalable, inclusive UX.",
-            "Built a platform-first culture that reduced duplication, improved accessibility compliance, and strengthened global adoption."
+            "Lead a centralized UI Platform organization to standardize front-end architecture and design-system foundations across Okta's acquired and core products, enabling faster integration of newly acquired product surfaces.",
+            "Lead and scale distributed org of 16 engineers (US & Canada) across 4 teams; 1 EM; responsible for hiring, performance, and org design.",
+            "Delivered multi-quarter UI modernization initiative across dozens of product teams, reducing legacy UI by establishing shared React foundations, migration tooling for 200+ UI modules.",
+            "Scaled adoption of Odyssey (Shared react design system), standardizing UI foundations and cutting duplicated component implementations across teams by establishing reusable primitives and contribution guidelines.",
+            "Shipped GA unified navigation framework across multiple Okta product surfaces, improving cross-product discoverability.",
+            "Fostered a platform-first culture and improved accessibility compliance across Okta products and strengthened product adoption globally."
           ]
         },
         {
-          "title": "Principal Software Engineer / Tech Lead, Globalization-Core",
-          "start": "2016-11",
+          "title": "Principal Software Engineer / Tech Lead – Globalization",
+          "start": "2023-04",
           "end": "2024-02",
           "highlights": [
-            "Led cross-functional engineering to internationalize end-user and admin platforms, enabling 26+ languages worldwide.",
-            "Defined i18n architectural strategy/frameworks used across products, reducing localization cycle time and improving release velocity.",
-            "Mentored engineers; hosted bi-weekly office hours to share best practices.",
-            "Partnered with PM and Design on roadmap planning and delivery."
+            "Technical lead for internationalization architecture across end-user and admin products.",
+            "Defined company-wide internationalization architecture (message extraction, globalization testing framework, locale fallbacks, and translation delivery pipeline) adopted across 60+ UI repos powering end-user and admin products.",
+            "Expanded product language support to 29 locales by implementing a scalable localization pipeline, reducing localization regressions during releases.",
+            "Partnered with PM, Design, and Localization Ops to operationalize scalable localization workflows.",
+            "Mentored other engineers and hosted bi-weekly architecture office hours."
           ]
         },
         {
-          "title": "Staff Software Engineer, UI-Core",
+          "title": "Staff Software Engineer – UI Core Platform",
+          "start": "2021-04",
+          "end": "2023-04",
           "highlights": [
-            "Introduced localization tooling and infrastructure for the Identity Engine, improving developer efficiency and translation quality.",
-            "Directed initiative to localize the Okta Admin Portal for global markets."
+            "Led localization tooling and shared infrastructure initiatives for Okta Identity Engine.",
+            "Defined extensibility patterns and reusable UI primitives adopted across multiple teams.",
+            "Influenced front-end modernization strategy transitioning legacy systems toward scalable React architecture."
           ]
         },
         {
-          "title": "Senior Software Engineer, End User & Identity Experience",
+          "title": "Senior Software Engineer – Identity Experience",
+          "start": "2016-04",
+          "end": "2021-04",
           "highlights": [
-            "Co-led redesign/implementation of the Okta sign-in experience using the Identity Engine, improving security and usability.",
-            "Built admin customization for email templates and end-user experiences.",
-            "Delivered core internationalization capabilities for the end-user application."
+            "Co-led next-generation end-user sign-in experience on Okta Identity Engine.",
+            "Delivered admin customization capabilities including email templating.",
+            "Owned internationalization of end-user applications supporting global expansion."
           ]
         }
       ]
     },
     {
-      "company": "Jobvite, Inc.",
+      "company": "Jobvite",
       "location": "San Mateo, CA",
       "positions": [
         {
@@ -76,38 +83,9 @@
           "start": "2012-01",
           "end": "2016-11",
           "highlights": [
-            "Re-architected and redesigned Jobvite Dashboard; improved performance by ~50%.",
-            "Built reusable AngularJS UI components to accelerate multi-team development.",
-            "Contributed as full\u2011stack engineer on multiple SaaS features.",
-            "Supported internationalization of Jobvite Hire to expand product reach."
-          ]
-        }
-      ]
-    },
-    {
-      "company": "Gala-Net",
-      "location": "Sunnyvale, CA",
-      "positions": [
-        {
-          "title": "Front-End Web Developer",
-          "start": "2010-10",
-          "end": "2012-01",
-          "highlights": [
-            "Developed cross-platform web applications and MMORPG portals for global users."
-          ]
-        }
-      ]
-    },
-    {
-      "company": "Eyemagine",
-      "location": "Orange County, CA",
-      "positions": [
-        {
-          "title": "Junior Software Developer",
-          "start": "2010-06",
-          "end": "2010-10",
-          "highlights": [
-            "Built e-commerce web applications using Magento and PHP."
+            "Senior Software engineer on core ATS product.",
+            "Improved ATS dashboard performance by ~50% by re-architecting data loading and rendering paths (API aggregation, caching, and UI rendering optimizations) to reduce time-to-interactive for recruiters.",
+            "Built reusable AngularJS component library accelerating front-end development across the company."
           ]
         }
       ]
@@ -130,45 +108,31 @@
     }
   ],
   "skills": {
+    "ai_tools": [
+      "Claude Code",
+      "VS Code Copilot"
+    ],
     "frontend": [
-      "JavaScript (ES6+)",
       "React",
-      "Backbone.js",
-      "AngularJS",
       "TypeScript",
-      "HTML5",
-      "CSS3",
-      "SASS"
+      "JavaScript (ES6+)",
+      "Node.js",
+      "CSS",
+      "HTML",
+      "Design Systems",
+      "Tokens",
+      "Component Libraries"
     ],
     "backend": [
+      "REST APIs",
       "Java",
-      "Spring MVC",
-      "Node.js",
-      "REST APIs"
+      "Spring MVC"
     ],
     "databases": [
       "MySQL",
-      "MongoDB",
+      "Prisma",
       "Redis",
-      "MSSQL"
-    ],
-    "tools_devops": [
-      "Git",
-      "Docker",
-      "Maven",
-      "Tomcat",
-      "JIRA",
-      "Confluence",
-      "IntelliJ",
-      "VSCode"
-    ],
-    "other": [
-      "Design Systems",
-      "Internationalization (i18n)",
-      "Accessibility",
-      "Translation pipeline",
-      "UI Platforms",
-      "SaaS Architecture"
+      "MongoDB"
     ]
   },
   "links": [
