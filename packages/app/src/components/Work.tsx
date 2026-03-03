@@ -20,6 +20,7 @@ const Work = function () {
       <div className="w-screen">
         <div className="px-20 py-10">
           <h2 className="font-bold text-2xl mb-8">{t('section_work')}</h2>
+          
           <div className="space-y-8">
             {experience.map((company: any, companyIndex: number) => (
               <div key={companyIndex} className="border-l-4 border-blue-500 pl-6 pb-6">
@@ -56,6 +57,7 @@ const Work = function () {
               </div>
             ))}
           </div>
+
         </div>
       </div>
     </div>
