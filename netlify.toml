@@ -18,6 +18,12 @@
   # Prevent npm ci issues in Lerna
   LERNA_DISABLE_NPM = "true"
 
+# Redirect /resume to the PDF
+[[redirects]]
+  from = "/resume"
+  to = "/Nikhil_Venkatraman_Resume.pdf"
+  status = 301
+
 # Redirect rules for SPA
 [[redirects]]
   from = "/*"
