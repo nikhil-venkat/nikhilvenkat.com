@@ -21,7 +21,7 @@
 # Redirect /resume to the PDF
 [[redirects]]
   from = "/resume"
-  to = "/Nikhil_Venkatraman_Resume.pdf"
+  to = "/Nikhil_Venkatraman_Resume_2026.pdf"
   status = 301
 
 # Redirect rules for SPA
