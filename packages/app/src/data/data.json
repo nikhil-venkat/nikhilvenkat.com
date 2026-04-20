@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Nikhil Venkatraman",
-    "label": "Engineering Manager \u2022 UI Platform & Design Systems",
+    "label": "Senior Engineering Manager \u2022 UI Platform & Design Systems",
     "location": {
       "region": "SF Bay Area",
       "country": "USA"
@@ -21,16 +21,26 @@
       }
     ]
   },
-  "summary": "Engineering manager and design systems leader with 10+ years building and scaling enterprise SaaS. Led UI platform modernization and global design system adoption to deliver unified, accessible user experiences; partnered with product/design to accelerate delivery, cut costs, and improve global adoption.",
+  "summary": "Engineering leader with 10+ years building UI platforms and design systems for enterprise SaaS. Currently leading Okta's UI Platform & Design Systems org as Senior Engineering Manager (16 engineers across 4 teams, incl. 1 EM), enabling 30+ product teams to ship consistent, accessible, global experiences faster. Platform-as-product operator focused on developer experience and reliability.",
   "experience": [
     {
       "company": "Okta, Inc.",
       "location": "San Francisco, CA",
       "positions": [
         {
+          "title": "Senior Engineering Manager – UI Platform & Design Systems",
+          "start": "2026-04",
+          "end": null,
+          "highlights": [
+            "Expanding UI Platform org globally by establishing an India engineering hub, scaling distributed capacity across 3 continents to accelerate platform delivery.",
+            "Evangelizing a UI Gold Standard tech stack across all new product development, mandating adoption of Odyssey design system, globalization-ready architecture, accessibility compliance, and Okta's latest UI framework — establishing consistent engineering standards across product orgs.",
+            "Driving AI-powered rapid prototyping capabilities for PM and Design, enabling product teams to generate high-fidelity prototypes directly from Odyssey design system components, reducing time from concept to validated UI."
+          ]
+        },
+        {
           "title": "Engineering Manager – UI Platform & Design Systems",
           "start": "2024-02",
-          "end": null,
+          "end": "2026-04",
           "highlights": [
             "Lead a centralized UI Platform organization to standardize front-end architecture and design-system foundations across Okta's acquired and core products, enabling faster integration of newly acquired product surfaces.",
             "Lead and scale distributed org of 16 engineers (US & Canada) across 4 teams; 1 EM; responsible for hiring, performance, and org design.",
