@@ -51,7 +51,7 @@ const LocationWidget: React.FC = () => {
 
   return (
     <div className="flex items-center gap-1.5 text-xs select-none" style={{ color: 'inherit', opacity: 0.7 }}>
-      <span style={{ position: 'relative', top: '2px' }}>{getTimeIcon(hour)}</span>
+      <span style={{ position: 'relative', top: '1px', marginRight: '4px' }}>{getTimeIcon(hour)}</span>
       <span className="tabular-nums font-medium">{timeStr}</span>
       <span style={{ opacity: 0.4 }}>·</span>
       <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor" style={{ opacity: 0.6, flexShrink: 0 }}>
