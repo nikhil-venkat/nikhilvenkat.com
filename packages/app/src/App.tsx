@@ -1,6 +1,7 @@
 import React, { Suspense, useState } from 'react';
 import './App.css';
 import Spinner from './components/Spinner';
+import LocationWidget from './components/LocationWidget';
 import { ThemeContext, themes, ThemeType } from "./store/ThemeStore";
 
 const Page = React.lazy(() =>  import('./components/Page'));
@@ -13,14 +14,37 @@ const App = function () {
       setTheme(themes.dark)
     }
   }
-  // set default to light
   const [theme, setTheme] = useState<ThemeType>(themes.light);
   const isDarkMode = theme.classes.includes('dark-mode');
+
   return (
     <ThemeContext.Provider value={theme}>
       <div className={theme.classes}>
-        <button className={isDarkMode? 'mode-toggle': 'invisible'} onClick={() => toggleTheme('lightmode')} > &#x2600; </button>
-        <button className={!isDarkMode? 'mode-toggle': 'invisible'} onClick={() => toggleTheme('darkmode')} > &#x263E; </button>
+        <header
+          style={{
+            position: 'sticky',
+            top: 0,
+            zIndex: 50,
+            display: 'flex',
+            justifyContent: 'flex-end',
+            alignItems: 'center',
+            padding: '10px 80px',
+            borderBottom: isDarkMode ? '1px solid rgba(255,255,255,0.08)' : '1px solid rgba(0,0,0,0.07)',
+            background: isDarkMode ? 'rgba(0,0,0,0.92)' : 'rgba(255,255,255,0.92)',
+            backdropFilter: 'blur(8px)',
+            WebkitBackdropFilter: 'blur(8px)',
+          }}
+        >
+          <LocationWidget />
+          <button
+            className={isDarkMode ? 'mode-toggle-header' : 'mode-toggle-header'}
+            onClick={() => toggleTheme(isDarkMode ? 'lightmode' : 'darkmode')}
+            style={{ marginLeft: 20, background: 'none', border: 'none', cursor: 'pointer', opacity: 0.5, fontSize: 16 }}
+            aria-label="Toggle theme"
+          >
+            {isDarkMode ? '☀' : '☾'}
+          </button>
+        </header>
         <div>
           <Suspense fallback={<Spinner/>}>
             <Page></Page>
@@ -32,6 +56,3 @@ const App = function () {
 }
 
 export default App;
-
-
-
