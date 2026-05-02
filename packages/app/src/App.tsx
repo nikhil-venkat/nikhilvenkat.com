@@ -42,7 +42,10 @@ const App = function () {
             style={{ marginLeft: 20, background: 'none', border: 'none', cursor: 'pointer', opacity: 0.5, fontSize: 16 }}
             aria-label="Toggle theme"
           >
-            {isDarkMode ? '☀' : '☾'}
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true" style={{ display: 'block' }}>
+              <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" />
+              <path d="M12 2a10 10 0 0 1 0 20V2z" fill="currentColor" />
+            </svg>
           </button>
         </header>
         <div>
